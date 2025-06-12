@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 #
-# mkatz_extract_v3p.sh  ──  DOMAIN\user : <NTLM-hash | password>
-#
-#   ./mkatz_extract_v3p.sh mimikatz.txt  > creds.txt
+#   ./mimiparser.sh mimikatz-output.txt  > creds.txt
 #
 #   • Skips machine accounts (user$)
 #   • Adds the domain
